@@ -1,0 +1,454 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('images/background.png') center center/cover;
+    background-color: #18345f;
+    background-attachment: fixed;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerButton {
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    border: transparent 2px solid;
+    transition: all 0.9s ease;
+}
+
+.headerButton1 {
+    background-color: rgba(112,58,0, 0.35);
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    border: transparent 2px solid;
+    border: #ff8400 2px solid;
+    transition: all 0.9s ease;
+    transform: scale(1.05);
+}
+
+.headerButton:hover {
+    border: #ff8400 2px solid;
+    background-color: rgba(112,58,0, 0.35);
+    transition: all 0.9s ease;
+    transform: scale(1.05);
+}
+
+.logoButton {
+    background-color: transparent;
+    border: transparent 2px solid;
+    cursor: pointer;
+}
+
+main {
+    text-align: center;
+    padding: 50px;
+}
+
+.search-container {
+    height: 53px;
+    border-radius: 30px;
+    border: rgb(61, 97, 155) 2px solid;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+
+.search-container input {
+    padding: 10px;
+    font-size: 20px;
+    position:relative;
+}
+
+ .right-border{
+    padding: 10px;
+    font-size: 20px;
+    border: transparent 1px solid;
+    position:relative;
+    border-right: rgb(61, 97, 155) 2px solid;
+}
+
+.no-border {
+    border: transparent 1px solid;
+}
+
+.search-button {
+    background-color: transparent;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 3px;
+    transition: all 0.3s ease;
+}
+
+.search-container input:focus {
+    outline: none;
+}
+
+.search-button:hover {
+    filter: brightness(120%);
+    transform: scale(1.10);
+    transition: all 0.3s ease;
+}
+
+.hot-offers {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.offer-card {
+    width: 300px;
+    height: 400px;
+    margin: 0 20px;
+    border: transparent;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.deviz {
+    font-size: 45px;
+    color: #e9e9eb;
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ancient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hotheader {
+    font-size: 40px;
+    color: #ff8400;
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.otzheader {
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.offer-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.5s ease;
+}
+
+.recomheader {
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.recomheaderus {
+    font-size: 40px;
+    color: #ff8400;
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.advantage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+.advantage-block {
+    display: flex;
+    width: 80%;
+    margin-bottom: 30px;
+    border: 2px solid #ff8400;
+    border-radius: 18px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.advantage-text {
+    flex: 2;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.advantage-text h2 {
+    color: #ff8400;
+    font-size: 30px;
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.advantage-text p {
+    color: #e9e9eb;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.advantage-image {
+    flex: 1;
+}
+
+.advantage-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+    display: block; 
+    margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-qr img {
+    width: 150px;
+    height: 150px;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+.footer-column {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный */
+    backdrop-filter: blur(5px); /* Размытие фона */
+    z-index: 10; /* Поверх всего контента */
+    display: none; /* Скрыт по умолчанию */
+}
+
+.login-form {
+    width: 600px;
+    height: 400px;
+    border-radius: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 11;
+    display: none; /* Скрыта по умолчанию */
+    text-align: center;
+}
+
+.login-form h2 {
+    font-size: 36px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    font-size: 20px;
+    background-color: #e9e9eb;
+}
+
+.login-form text {
+    font-size: 24px;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login-form .social-login {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.login-form button {
+    padding: 10px 20px;
+    background-color: #ff8400;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 10px;
+    width: 200px;
+    height: 60px;
+    font-family: "Noto Sans";
+    transition: all 0.3s ease;
+}
+
+.login-form button:hover {
+    filter: brightness(120%);
+    transform: scale(1.10);
+    transition: all 0.3s ease;
+}
+
+.login-form .register-link {
+    margin-top: 30px;
+}
+
+.login-form .register-link a {
+    color: #ff8400;
+    text-decoration: none;
+}
+
+.login-form .register-link a:hover{
+    color: #ff8400;
+    text-decoration: underline;
+}
+
+.ticket {
+    background-image: url("images/ticket.png");
+}
+
+.wrapper {
+    display: flex; /* Для размещения контейнеров в строку */
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  /* Общие стили для контейнеров */
+.container {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0; /* Убираем внешние отступы для плотного прилегания */
+}
+
+  /* Стили для первого контейнера */
+.container-one {
+    height: 435px;
+    background: url("images/ticket.png") no-repeat center center;
+    color: #000;
+    width: 874px;
+}
+
+.columns {
+    display: flex;
+    height: 100%;
+}
+
+.columns h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.columns h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: red;
+}
+
+.columns text {
+    font-size: 24px;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    align-items: left;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.column-left {
+    text-align: left;
+}
+
+.column-center {
+    text-align: center;
+}
+
+.column-right {
+    text-align: right;
+}
+
+.container-two {
+    background: url("images/boarding.png") no-repeat center center;
+    color: #000;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 249px;
+}
+
+.container-two button {
+    font-family: "Noto Sans";
+    font-size: 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    color: #ffffff;
+    background-color: #ff8400;
+    width: 210px;
+    height: 70px;
+    transition: all 0.3s ease;
+}
+
+.container-two .buybutton {
+    background-color: red;
+}
+
+.container-two button:hover {
+    filter: brightness(120%);
+    transform: scale(1.10);
+    transition: all 0.3s ease;
+}

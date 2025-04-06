@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AviaShop</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="icon" href="/images/samoletik.png">
+</head>
+<body>
+  <header>
+    <div>
+        <button class="logoButton"><a href="index.html"><img src="images/logo.png" width="150"></a></button>
+        <button class="headerButton"><a href="tickets.html"><img src="images/tickets.png"></a></button>
+    </div>
+    <div>
+        <button class="headerButton"><img src="images/bucket.png"></button>
+        <div class="overlay" id="overlay"></div>
+        <button class="headerButton" onclick="openLoginForm()"><img src="images/login.png"></button>
+        <button class="headerButton"><img src="images/help.png" width="150"></button>
+    </div>
+  </header>
+  <main>
+    <h1 class="deviz">Купить билет туда, где трава зеленее и солнце <span class="recomheaderus"> Ярче</span>!</h1>
+    <div class="ancient">
+        <div class="search-container">
+            <input type="text" placeholder="Откуда?" class="right-border">
+            <input type="text" placeholder="Куда?" class="right-border">
+            <input type="date" placeholder="Когда?" class="right-border">
+            <input type="date" placeholder="Обратно?" class="no-border">
+            <button class="search-button"><a href="tickets.html"><img src="images/lupa.png"></a></button>
+        </div>
+    </div>
+
+    <div class="hot-offers">
+      <h2 class="hotheader">Горячие предложения</h2>
+      <div class="offer-container">
+        <div class="offer-card">
+          <img src="images/ad1.png">
+        </div>
+        <div class="offer-card">
+          <img src="images/ad2.png">
+        </div>
+        <div class="offer-card">
+          <img src="images/ad3.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="advantage-container">
+      <h2 class="recomheader">Почему стоит выбрать именно<span class="recomheaderus"> нас</span>?</h2>
+      
+      <div class="advantage-block">
+        <div class="advantage-text">
+          <h2>100 лет на рынке</h2>
+          <p>Мы являемся проверенным специалистом, с которым люди работают уже более 100 лет!
+             Мы имеем огромное количество положительных отзывов и партнерские связи с авиакомпаниями.</p>
+        </div>
+        <div class="advantage-image">
+          <img src="images/fabric.png">
+        </div>
+      </div>
+  
+      <div class="advantage-block">
+        <div class="advantage-text">
+          <h2>Самые низкие цены</h2>
+          <p>Благодаря множеству партнерских программ, мы имеем самые выгодные предложения на рынке.</p>
+        </div>
+        <div class="advantage-image">
+          <img src="images/coolprice.png">
+        </div>
+      </div>
+  
+      <div class="advantage-block">
+        <div class="advantage-text">
+          <h2>Обратная связь</h2>
+          <p>Специалисты нашего Кол-центра находятся на связи 24 часа в сутки 7 дней в неделю. При возникновении любого рода трудностей, мы поможем с их решением.
+             Начните свой отпуск ещё с момента покупки билета!</p>
+        </div>
+        <div class="advantage-image">
+          <img src="images/feedback.png">
+        </div>
+    </div>
+
+    <div class="hot-offers">
+      <h2 class="otzheader">Отзывы</h2>
+      <div class="offer-container">
+        <div class="offer-card">
+          <img src="images/otz1.png">
+        </div>
+        <div class="offer-card">
+          <img src="images/otz2.png">
+        </div>
+        <div class="offer-card">
+          <img src="images/otz3.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="login-form" id="loginForm">
+      <h2>Авторизация</h2>
+      <div>
+        <text>Логин</text>
+        <input type="text" id="login">
+      </div>
+
+      <div>
+        <text>Пароль</text>
+        <input type="password" id="password">
+      </div>
+
+      <div class="social-login">
+        Войти через:
+        <a href="#" id="loginvk"><img src="images/seti1.png" width="30" height="30"></a>
+        <a href="#" id="loginfb"><img src="images/seti2.png" width="30" height="30"></a>
+        <a href="#" id="loginok"><img src="images/seti3.png" width="30" height="30"></a>
+      </div>
+
+      <button id="loginButton">Вход</button>
+  
+      <div class="register-link">
+        Нет аккаунта? <a href="#">Зарегистрироваться</a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-columns">
+
+      <div class="footer-column">
+        <h3>Информация</h3>
+        <a href="#">Главная</a>
+        <a href="#">Покупка билетов</a>
+        <a href="#">Поддержка</a>
+        <a href="#">Вакансии</a>
+        <a href="#">Карта сайта</a>
+        <a href="#">Сотрудничество</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Популярные направления</h3>
+        <a href="#">Москва</a>
+        <a href="#">Тверь</a>
+        <a href="#">Санкт-Петербург</a>
+        <a href="#">Екатеринбург</a>
+        <a href="#">Саратов</a>
+        <a href="#">Мурманск</a>
+      </div>
+
+      <div class="footer-column footer-qr">
+        <img src="images/qr.png">
+        <div class="footer-copyright">© AviaShop<br>1920-2025
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>

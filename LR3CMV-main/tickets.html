@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AviaShop</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="icon" href="/images/samoletik.png">
+</head>
+<body>
+  <header>
+    <div>
+        <button class="logoButton"><a href="index.html"><img src="images/logo.png" width="150"></a></button>
+        <button class="headerButton1"><a href="tickets.html"><img src="images/tickets.png"></a></button>
+    </div>
+    <div>
+        <button class="headerButton"><img src="images/bucket.png"></button>
+        <div class="overlay" id="overlay"></div>
+        <button class="headerButton" onclick="openLoginForm()"><img src="images/login.png"></button>
+        <button class="headerButton"><img src="images/help.png" width="150"></button>
+    </div>
+  </header>
+  <main>
+    <h1 class="deviz">Купить билет туда, где трава зеленее и солнце <span class="recomheaderus"> Ярче</span>!</h1>
+    <div class="ancient">
+        <div class="search-container">
+            <input type="text" placeholder="Откуда?" class="right-border">
+            <input type="text" placeholder="Куда?" class="right-border">
+            <input type="date" placeholder="Когда?" class="right-border">
+            <input type="date" placeholder="Обратно?" class="no-border">
+            <button class="search-button"><a href="tickets.html"><img src="images/lupa.png"></a></button>
+        </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="container container-one">
+        <div class="columns">
+          <div class="column column-left">
+            <h2>Места:</h2>
+            <text>1 Пас, Эконом</text>
+            <h2>Место вылета:</h2>
+            <text>LED, Санкт-Петебург, Россия</text>
+            <h2>Дата вылета:</h2>
+            <text>24.07.2025 18:00</text>
+          </div>
+          <div class="column column-center">
+            <h2>Направление:</h2>
+            <h1>СПБ - Дубай</h1>
+          </div>
+          <div class="column column-right">
+            <h2>Авиакомпания:</h2>
+            <text>Звезда</text>
+            <h2>Место прилета:</h2>
+            <text>ABC, Дубай, ОАЭ</text>
+            <h2>Дата прилета:</h2>
+            <text>25.07.2025 9:00</text>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container container-two">
+        <h1>13 490 р.</h1>
+        <button>В корзину</button>
+        <button class="buybutton">Купить</button>
+      </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="container container-one">
+          <div class="columns">
+            <div class="column column-left">
+              <h2>Места:</h2>
+              <text>1 Пас, Эконом</text>
+              <h2>Место вылета:</h2>
+              <text>LED, Санкт-Петебург, Россия</text>
+              <h2>Дата вылета:</h2>
+              <text>24.07.2025 5:30</text>
+            </div>
+            <div class="column column-center">
+              <h2>Направление:</h2>
+              <h1>СПБ - Пекин</h1>
+            </div>
+            <div class="column column-right">
+              <h2>Авиакомпания:</h2>
+              <text>Пилот</text>
+              <h2>Место прилета:</h2>
+              <text>PEC, Пекин, Китай</text>
+              <h2>Дата прилета:</h2>
+              <text>26.07.2025 15:00</text>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container container-two">
+          <h1>26 350 р.</h1>
+          <button>В корзину</button>
+          <button class="buybutton">Купить</button>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="container container-one">
+          <div class="columns">
+            <div class="column column-left">
+              <h2>Места:</h2>
+              <text>1 Пас, Эконом</text>
+              <h2>Место вылета:</h2>
+              <text>LED, Санкт-Петебург, Россия</text>
+              <h2>Дата вылета:</h2>
+              <text>24.07.2025 13:00</text>
+            </div>
+            <div class="column column-center">
+              <h2>Направление:</h2>
+              <h1>СПБ - Сеул</h1>
+            </div>
+            <div class="column column-right">
+              <h2>Авиакомпания:</h2>
+              <text>Шунчоу</text>
+              <h2>Место прилета:</h2>
+              <text>SEL, Сеул, Южная Корея</text>
+              <h2>Дата прилета:</h2>
+              <text>25.07.2025 5:00</text>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container container-two">
+          <h1>43 350 р.</h1>
+          <button>В корзину</button>
+          <button class="buybutton">Купить</button>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="container container-one">
+          <div class="columns">
+            <div class="column column-left">
+              <h2>Места:</h2>
+              <text>1 Пас, Эконом</text>
+              <h2>Место вылета:</h2>
+              <text>LED, Санкт-Петебург, Россия</text>
+              <h2>Дата вылета:</h2>
+              <text>24.07.2025 15:00</text>
+            </div>
+            <div class="column column-center">
+              <h2>Направление:</h2>
+              <h1>СПБ - Москва</h1>
+            </div>
+            <div class="column column-right">
+              <h2>Авиакомпания:</h2>
+              <text>Россия</text>
+              <h2>Место прилета:</h2>
+              <text>MSK, Москва, Россия</text>
+              <h2>Дата прилета:</h2>
+              <text>24.07.2025 16:00</text>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container container-two">
+          <h1>1 350 р.</h1>
+          <button>В корзину</button>
+          <button class="buybutton">Купить</button>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="container container-one">
+          <div class="columns">
+            <div class="column column-left">
+              <h2>Места:</h2>
+              <text>1 Пас, Эконом</text>
+              <h2>Место вылета:</h2>
+              <text>LED, Санкт-Петебург, Россия</text>
+              <h2>Дата вылета:</h2>
+              <text>24.07.2025 19:30</text>
+            </div>
+            <div class="column column-center">
+              <h2>Направление:</h2>
+              <h1>СПБ - Сочи</h1>
+            </div>
+            <div class="column column-right">
+              <h2>Авиакомпания:</h2>
+              <text>Россия</text>
+              <h2>Место прилета:</h2>
+              <text>SOL, Сочи, Россия</text>
+              <h2>Дата прилета:</h2>
+              <text>24.07.2025 22:30</text>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container container-two">
+          <h1>2 350 р.</h1>
+          <button>В корзину</button>
+          <button class="buybutton">Купить</button>
+        </div>
+      </div>
+
+    <div class="login-form" id="loginForm">
+      <h2>Авторизация</h2>
+      <div>
+        <text>Логин</text>
+        <input type="text">
+      </div>
+
+      <div>
+        <text>Пароль</text>
+        <input type="password">
+      </div>
+
+      <div class="social-login">
+        Войти через:
+        <a href="#"><img src="images/seti1.png" width="30" height="30"></a>
+        <a href="#"><img src="images/seti2.png" width="30" height="30"></a>
+        <a href="#"><img src="images/seti3.png" width="30" height="30"></a>
+      </div>
+
+      <button>Вход</button>
+  
+      <div class="register-link">
+        Нет аккаунта? <a href="#">Зарегистрироваться</a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-columns">
+
+      <div class="footer-column">
+        <h3>Информация</h3>
+        <a href="#">Главная</a>
+        <a href="#">Покупка билетов</a>
+        <a href="#">Поддержка</a>
+        <a href="#">Вакансии</a>
+        <a href="#">Карта сайта</a>
+        <a href="#">Сотрудничество</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Популярные направления</h3>
+        <a href="#">Москва</a>
+        <a href="#">Тверь</a>
+        <a href="#">Санкт-Петербург</a>
+        <a href="#">Екатеринбург</a>
+        <a href="#">Саратов</a>
+        <a href="#">Мурманск</a>
+      </div>
+
+      <div class="footer-column footer-qr">
+        <img src="images/qr.png">
+        <div class="footer-copyright">© AviaShop<br>1920-2025
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
